@@ -15,7 +15,7 @@ const AboutMe2 = () => {
      <div className="App">
        <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
-         <h1>Firstname: {address.firstname}</h1>
+         <h1>name: {address.firstname}</h1>
         <h1>Surname: {address.surname}</h1>
         <h1>Address: {address.line1}</h1>
          <h1>{address.line2}</h1>
@@ -25,7 +25,7 @@ const AboutMe2 = () => {
 
         <a
           className="App-link"
-           href="/app2.js"
+           href="/"
            target="_blank"
            rel="noopener noreferrer"
          >

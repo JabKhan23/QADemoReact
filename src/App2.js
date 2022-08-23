@@ -1,18 +1,16 @@
 
-import './App.css';
+import './App2.css';
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './header.jsx';
-import Header from './header.jsx';
-import Hello from './Hello.jsx';
+import AboutMe2 from './New.jsx';
 
 
- const App = () => {
+ const App2 = () => {
   return (
-    <Hello />
+    <AboutMe2 />
    );
  }
 
-export default App;
+export default App2;
 
 

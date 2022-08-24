@@ -8,10 +8,12 @@ import Hello from './Hello.jsx';
 import './App.css';
 import ComponentWithProps from './Hello';
 import Clock from './Clock';
+import Login from './Login';
+import Car from './Car';
 
 const App = () => {
 return (
-    <><ComponentWithProps /><Clock /></>
+    <><Login /><ComponentWithProps /><Clock /><Car/></>
 );
 }
 

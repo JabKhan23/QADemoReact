@@ -70,10 +70,10 @@ export default class Clock extends Component {
 
     render() {
         return (
-            <div>
+            <div className="App">
                 <h1>{this.state.text}</h1>
                 <h2>It is {this.state.date.toLocaleTimeString()}</h2>
-                <button onClick={this.stateHandle}>Changes State</button>
+                <button onClick={this.stateHandle}>Restart Time</button>
                 <button onClick={this.stateHandle2}>
                     Changes State and stops timer
                 </button>

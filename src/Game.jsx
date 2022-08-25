@@ -22,10 +22,10 @@ const Game = () => {
     }
 
     return(
-       <>
-           <AddItems submitHandler={submitForm} newPlayer={newItem} handleAdd={handleAdd} />
+       <div className="App">
+           <AddItems submitHandler={submitForm} newItem={newItem} handleAdd={handleAdd} />
             <ItemList items={items}/> 
-       </>
+       </div>
    )
 }
 export default Game;

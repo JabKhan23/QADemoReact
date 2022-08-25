@@ -10,10 +10,11 @@ import ComponentWithProps from './Hello';
 import Clock from './Clock';
 import Login from './Login';
 import Car from './Car';
+import Game from './Game';
 
 const App = () => {
 return (
-    <><Login /><ComponentWithProps /><Clock /><Car/></>
+    <><Login /><ComponentWithProps /><Clock /><Car/><Game/></>
 );
 }
 

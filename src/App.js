@@ -10,7 +10,7 @@ import Login from './Login';
 import Car from './Car';
 import Game from './Game';
 import LessText from './LessText';
-import Home from './home';
+import Home from './HomePage';
 import Users from './users';
 import Contact from './contact';
 import Notfound from './NotFound';
@@ -18,35 +18,25 @@ import Notfound from './NotFound';
 const App = () => {
 return (
     <><><Login /><ComponentWithProps /><Clock /><Car />
-        <Game /></><Router>
-            <div>
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/users">Users</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">Contact</Link>
-                    </li>
-                </ul>
-                <Routes>
-                    <Route exact path="/">
-                        <Home />
-                    </Route>
-                    <Route path="/users/:id">
-                        <Users />
-                    </Route>
-                    <Route path="/users">
-                        <Users />
-                    </Route>
-                    <Route path="/contact">
-                        <Contact />
-                    </Route>
-                    </Routes>
-            </div>
-        </Router></>
+        <Game /><Home /></>
+    </>/* // <><Router>
+    //         <div>
+    //             <Routes>
+    //                 <Route path="/">  //couldn't get router to work for some reason as it created a blank page, I will play around it later to see if I can make it work
+    //                 element = {<Home />}
+    //                 </Route>
+    //                 <Route path="/users/:id">
+    //                     <Users />
+    //                 </Route>
+    //                 <Route path="/users">
+    //                     <Users />
+    //                 </Route>
+    //                 <Route path="/contact">
+    //                     <Contact />
+    //                 </Route>
+    //                 </Routes>
+    //         </div>
+    //     </Router></> */
 );
 }
 
